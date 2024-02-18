@@ -19,6 +19,8 @@ The workflow that checks for new releases is run on push and then daily and the 
 
 The artifact is published to GitHub packages in the repository. Check out how to use it at https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-gradle-registry#using-a-published-package
 
+Example repository at https://github.com/Moetto/openhue-client
+
 ## Limitations
 Github doesn't trigger workflows if the trigger came from another workflow that uses autegenerated GITHUB_TOKEN. 
 Therefore the monitoring workflow needs for a separate token that creates the release.
